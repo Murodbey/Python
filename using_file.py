@@ -6,3 +6,8 @@ my_file.writelines([
     'Bishop\n',
     'Nightcrawler\n',
 ])
+my_file.close()
+
+m_file = open('xmen.txt', 'r')
+print(my_file.read())
+my_file.close()
