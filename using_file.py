@@ -8,7 +8,7 @@ my_file.writelines([
 ])
 my_file.close()
 
-m_file = open('xmen.txt', 'r')
+my_file = open('xmen.txt', 'r')
 print(my_file.read())
 print("I`m reading again")
 print(my_file.read())
